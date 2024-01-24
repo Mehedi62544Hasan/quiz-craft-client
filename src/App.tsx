@@ -1,7 +1,11 @@
+import { Button } from "@material-tailwind/react";
+
 function App() {
   return (
     <>
-      <h1>hello world</h1>
+      <Button placeholder={""} color="blue">
+        Button
+      </Button>
     </>
   );
 }
